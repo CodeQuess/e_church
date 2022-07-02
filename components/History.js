@@ -7,12 +7,12 @@ const History = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="about-large-img">
-                            <img src="images/img59.png" alt="textimage" width="1170" height="389" />
+                            <img src="images/img71.jpg" alt="textimage" width="1170" height="389" />
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-3">
                         <div className="about-semi-img">
-                            <img src="/images/img59.png" alt="textimage" width="400" height="349" />
+                            
                         </div>
                     </div>
                     <div className="col-lg-7">
@@ -21,7 +21,7 @@ const History = () => {
                                 <div className="section-icon">
                                     <img src="/images/section-icon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">History Of The Church</h2>
+                                <h2 className="section__title">History  Of  The  Church</h2>
                                 <p className="section__meta">learn more About us</p>
                                 <p className="section__desc">
                                 The Church started with this God’s audible and specific instruction ‘GO TO GWARINPA’.

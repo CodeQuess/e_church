@@ -246,7 +246,7 @@ class NavOne extends Component {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/single-philosophy">
+                      <Link href="/philosophy">
                         <a>Our philosophy</a>
                       </Link>
                     </li>

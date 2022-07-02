@@ -43,48 +43,7 @@ const SliderOne = () => {
               </div>
             </div>
           </div>
-          <div className="single-slide-item slide-bg2">
-            <div className="slide-item-table">
-              <div className="slide-item-tablecell">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-7">
-                      <div className="slider-heading">
-                        <p className="slider__meta">Welcome to Oxpitan</p>
-                        <h2 className="slider__title">
-                          Lend The Helping Hand Get Involved
-                        </h2>
-                        <a href="#" className="theme-btn">
-                          Discover More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="single-slide-item slide-bg3">
-            <div className="slide-item-table">
-              <div className="slide-item-tablecell">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-7">
-                      <div className="slider-heading">
-                        <p className="slider__meta">Welcome to Oxpitan</p>
-                        <h2 className="slider__title">
-                          Lend The Helping Hand Get Involved
-                        </h2>
-                        <a href="#" className="theme-btn">
-                          Discover More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+       
         </Swiper>
         <div className="owl-dots">
           <div onClick={goPrev} className="owl-dot">

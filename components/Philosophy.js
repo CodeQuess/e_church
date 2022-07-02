@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const Philosophy = () => {
     return (
@@ -10,19 +9,20 @@ const Philosophy = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354" />
+                                <img src="/images/img81.jpg" alt="service-image" width="570" height="354" />
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a> Mission Statement
-                                    </a></Link></h3>
-                                <p className="philosophy__content-text">
-                                The church was established to raise earthly relevant people and heavenly bound generation.
+                                <h3 className="philosophy__content-title">Mission Statement</h3>
+                                    
+
+<h6>
+   The church was established to raise earthly relevant people and heavenly bound generation,
 We believe in missions based upon Mathew 28:19-20. Every Christian, in every legitimate way, all the time, 
 everywhere, according to ability, ought to seek to spread knowledge of Jesus and the way of salvation.
 No one can be a true believer who has not repented of sin, trusted Jesus, and him alone, for life and salvation,
- and seeks to know and do the will of His divine Lord.  .
-                                </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+ and seeks to know and do the will of His divine Lord. </h6> 
+                                
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>
@@ -30,11 +30,11 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354"/>
+                                <img src="/images/img82.jpg" alt="service-image" width="570" height="354"/>
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a>Vision Statement
-                                     </a></Link></h3>
+                                <h3 className="philosophy__content-title">Vision Statement
+                                     </h3>
                                 
                                 <p className="philosophy__content-text">Our vision is embedded in our Motto ‘In righteousness you will be established’. Establishment through the followings:
 1.	 “Equip the Saints for the work of Ministry”. 
@@ -47,7 +47,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
 
                                    
                                 </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>
@@ -55,11 +55,11 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354"/>
+                                <img src="/images/img83.jpg" alt="service-image" width="570" height="354"/>
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a>Repentance, Faith and Grace
-                                    </a></Link></h3>
+                                <h3 className="philosophy__content-title">Repentance, Faith and Grace
+                                    </h3>
                                 
                                 <p className="philosophy__content-text">
                                 We believe the scriptures teach that repentance, faith and grace are sacred duties, 
@@ -70,7 +70,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                                 and relying on Him alone as the only and all-sufficient Savior (Matthew 3:8, 3:11, 9:13; Mark 1:4; Romans 2:4;
                                  II Corinthians 7:10; Habakkuk 2:4; Matthew 6:30, 8:26,9:22; Luke 7:9, 7:50, 17:5
                                 </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>
@@ -78,11 +78,11 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354" />
+                                <img src="/images/img85.jpg" alt="service-image" width="400" height="354" />
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a>God's Purpose of grace
-                                    </a></Link></h3>
+                                <h3 className="philosophy__content-title">God's Purpose of grace
+                                    </h3>
                               
                                 <p className="philosophy__content-text">
                                 We believe the scriptures teach that election is the eternal purpose of God, 
@@ -95,7 +95,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                                  and that to ascertain it with regard to ourselves demands and deserves the utmost diligence (Romans 9:11, 11:5; 
                                  I Thessalonians 1:4; II Peter 1:10).
                                 </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>
@@ -103,11 +103,11 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img59.png" alt="service-image"  width="570" height="354" />
+                                <img src="/images/img86.jpg" alt="service-image"  width="570" height="354" />
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a>Sanctification
-                                    </a></Link></h3>
+                                <h3 className="philosophy__content-title">Sanctification
+                                    </h3>
                                 <p className="philosophy__content-text">
                                 We believe the scriptures teach that sanctification is the process by which, according to the will of God, 
                                 we are made partakers of his holiness; that it is a progressive work; that it is begun in regeneration;
@@ -116,7 +116,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                                 watchfulness, and prayer (Romans 8:29; I Corinthians 1:2; Hebrews 10:14; Ephesians 1:3-4; 4:11-13; I Thessalonians 5:23-24; 
                                 Philippians 1:6, 3:21; I John 3:2; Jude 24).
                                 </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>
@@ -124,11 +124,11 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354" />
+                                <img src="/images/img87.jpg" alt="service-image" width="570" height="354" />
                             </div>
                             <div className="philosophy__content">
-                                <h3 className="philosophy__content-title"><Link href="/single-philosophy"><a> The True God
-                                    </a></Link></h3>
+                                <h3 className="philosophy__content-title"> The True God
+                                    </h3>
                                 <p className="philosophy__content-text">
                                 We believe the scriptures teach that there is one, and only one, living and true God; an infinite, intelligent spirit, 
                                 whose name is Jehovah, the maker and supreme ruler of heaven and earth; inexpressibly glorious in holiness, 
@@ -137,7 +137,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                                 equal in every divine perfection and executing distinct, but harmonious offices in the great work of redemption. 
                                 (Deuteronomy 6:4; Isaiah 45:21-22; John 17:3).
                                 </p>
-                                <Link href="/single-philosophy"><a className="theme-btn">read more</a></Link>
+                                <Link href="theme-btn"> <a>read more</a></Link>
                             </div>
                         </div>
                     </div>

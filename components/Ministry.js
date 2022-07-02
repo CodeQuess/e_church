@@ -10,10 +10,10 @@ const Ministry = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="logo-item logo-item1">
-                                        <img src="/images/img59.png" alt="textimage" width="1000" height="1000" />
+                                        <img src="/images/img73.jpg" alt="textimage" width="500" height="289" />
                                     </div>
                                 </div>
-                                <div className="row-lg-18">
+                                <div className="col-lg-8">
                                     <div className="ministry-item">
                                        
                                         <p className="ministry__text">
@@ -46,9 +46,10 @@ a workman that needeth not be ashamed, rightly dividing the word of truth."
 
                         <div className="ministry-wrap">
                             <div className="row">
-                                <div className="col-lg-6 col-sm-6">
+                                <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item2">
-                                        <img src="/images/img59.png" alt="textimage" width="300" height="300" />
+                                        <img src="/images/img74.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img88.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-12">
@@ -67,16 +68,18 @@ and encouraging environment to aid in their spiritual growth.
 The ministry’s mission is to have our youth grow in the grace and knowledge of our Lord and Jesus Christ
  while creating a fellowship environment where they can have fun, be known, be nurtured and be encouraged
 </p>
- 	
+
     
    <p> <h1>Media Ministry</h1> 
-The Media Ministry is responsible for contacting the media (i.e. radio, newspaper, television) for announcements regarding events 
+
+
+    The Media Ministry is responsible for contacting the media (i.e. radio, newspaper, television) for announcements regarding events 
 and special services taking place Cornerstone Baptist Church. They also involve in the following sub-ministries.
 Newsletter and Publication Ministry: The Publications Ministry is responsible for producing correspondences, 
 church bulletins, programs for special services, 
 certificates, business cards, etc. 
 •	Website Ministry: The Website Ministry is responsible for developing, maintaining and updating the church's website 
-and administering member account information
+and administering member account information 
                                         </p>
                                     </div>
                                 </div>
@@ -84,9 +87,10 @@ and administering member account information
                         </div>
                         <div className="ministry-wrap">
                             <div className="row">
-                                <div className="col-lg-6 col-sm-6">
+                                <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item3">
-                                        <img src="/images/img59.png" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img90.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img91.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-13">
@@ -119,9 +123,11 @@ The Visitation and Hospitality Ministry is responsible for creating a welcoming 
                         </div>
                         <div className="ministry-wrap">
                             <div className="row">
-                                <div className="col-lg-6 col-sm-6">
+                                <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item4">
-                                        <img src="/images/img59.png" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img89.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img92.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/img93.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-12">

@@ -20,7 +20,7 @@ const BlogHome = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">09 mar, 2020</span>
-                                <img src="/images/img59.png" alt="service-image" width="570" height="354" />
+                                <img src="/images/img72.jpg" alt="service-image" width="570" height="354" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><a href="/single-news">The Way of Salvation
@@ -48,7 +48,7 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/img59.png" alt="textimage" width="170" height="137" /></a>
+                                        <a href="/single-news"><img src="/images/img61.jpg" alt="textimage" width="200" height="200" /></a>
                                     </div>
                                     <div className="recent__content">
                                        
@@ -58,7 +58,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="images/img59.png" alt="textimage" width="170" height="137" /></a>
+                                        <a href="/single-news"><img src="images/img62.jpg" alt="textimage" width="170" height="137" /></a>
                                     </div>
                                     <div className="recent__content">
                                         
@@ -67,7 +67,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/img59.png" alt="textimage" width="170" height="137" /></a>
+                                        <a href="/single-news"><img src="/images/img63.jpg" alt="textimage" width="170" height="137" /></a>
                                     </div>
                                     <div className="recent__content">
                                        

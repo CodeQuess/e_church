@@ -23,7 +23,7 @@ class EntryArea extends Component {
                                     <img src="/images/section-icon.png" alt="section-icon" />
                                 </div>
                                 <h2 className="entry__title">God bless you and thank you for choosing Cornerstone Baptist Church Gwarinpa 
-                                as your center of worship, fellowship, spiritual growth and Christian service.
+                                as your center of worship.
                                  
                                 </h2>
                             </div>
@@ -33,7 +33,7 @@ class EntryArea extends Component {
                                 <div className="row">
                                     <div className="col-lg-4">
                                         <div className="entry-video-img">
-                                            <img src="/images/img59.png" alt="entry-video-img" width="270" height="153" />
+                                            <img src="/images/img60.jpg" alt="entry-video-img" width="400" height="300" />
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='PbUxi2Lx8x8' onClose={this.handleModal} />
                                                 <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                                                    title="Play Video"><i className="fa fa-play"></i>
