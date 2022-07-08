@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CausesArea = () => {
+const EventsArea = () => {
     return (
         <div>
             <section className="causes-area">
@@ -21,7 +21,7 @@ const CausesArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item1">
                                     <div className="blog-img">
-                                        <img src="/images/img75.jpg" alt="textimage" width="370" height="317" />
+                                        <img src="/images/img112.jpg" alt="textimage" width="370" height="317" />
                                     </div>
                                     <div id="bar1" className="barfiller">
                                         <div className="tipWrap">
@@ -45,7 +45,7 @@ const CausesArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
-                                        <img src="/images/img76.jpg" alt="textimage" width="370" height="317" />
+                                        <img src="/images/img113.jpg" alt="textimage" width="370" height="317" />
                                             <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
@@ -68,7 +68,7 @@ const CausesArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item3">
                                     <div className="blog-img">
-                                        <img src="/images/img77.jpg" alt="textimage" width="370" height="317" />
+                                        <img src="/images/img111.jpg" alt="textimage" width="300" height="299" />
                                     </div>
                                     <div id="bar3" className="barfiller">
                                         <div className="tipWrap">
@@ -94,4 +94,4 @@ const CausesArea = () => {
     );
 };
 
-export default CausesArea;
+export default EventsArea;

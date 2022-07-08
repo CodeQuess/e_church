@@ -20,10 +20,9 @@ class EntryArea extends Component {
                         <div className="col-lg-3">
                             <div className="entry-static-box entry-static-box1">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
+                                    <img src="/images/section-icon.png" alt="section-icon"/>
                                 </div>
-                                <h2 className="entry__title">God bless you and thank you for choosing Cornerstone Baptist Church Gwarinpa 
-                                as your center of worship.
+                                <h2 className="entry__title">God bless you and thank you for choosing &nbsp;&nbsp; Cornerstone Baptist Church Gwarinpa.
                                  
                                 </h2>
                             </div>
@@ -31,17 +30,15 @@ class EntryArea extends Component {
                         <div className="col-lg-9">
                             <div className="entry-static-box entry-static-box2 d-flex align-items-center">
                                 <div className="row">
-                                    <div className="col-lg-4">
-                                        <div className="entry-video-img">
-                                            <img src="/images/img60.jpg" alt="entry-video-img" width="400" height="300" />
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='PbUxi2Lx8x8' onClose={this.handleModal} />
-                                                <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
-                                                   title="Play Video"><i className="fa fa-play"></i>
+                                    <div className="col-lg-6">
+                                        <div className="entry-img">
+                                            <img src="/images/img60.jpg" alt="entry-img" width="300" height="300" />
+                                            
                                                 </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-12">
-                                        <div className="entry-video-text">
+                                    <div className="col-lg-6">
+                                        <div className="entry-text">
                                             <h2 className="entry__title">  We Welcome You
                                                 </h2>
                                             <p className="entry__text">As Senior Pastor, I extend my hand and heart in fellowship to you and offer my service to you. 
@@ -54,7 +51,7 @@ class EntryArea extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+            
             </section>
         );
     }

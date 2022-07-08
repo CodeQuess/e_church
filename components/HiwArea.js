@@ -9,7 +9,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg1">
                                 <figure>
-                                    <img src="/images/img78.jpg" alt="textimage" width="380" height="380" />
+                                    <img src="/images/img102.jpg" alt="textimage" width="380" height="380" />
                                         <h3 className="hiw-title">The true God</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>
@@ -22,7 +22,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg2">
                                 <figure>
-                                    <img src="/images/img79.jpg" alt="textimage" width="380" height="380"/>
+                                    <img src="/images/img101.jpg" alt="textimage" width="380" height="380"/>
                                         <h3 className="hiw-title">God's Purpose For You</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>
@@ -35,7 +35,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg3">
                                 <figure>
-                                    <img src="/images/img80.jpg" alt="textimage" width="380" height="380" />
+                                    <img src="/images/img108.jpg" alt="textimage" width="380" height="380" />
                                         <h3 className="hiw-title">Evangelism</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>

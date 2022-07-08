@@ -7,7 +7,7 @@ const History = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="about-large-img">
-                            <img src="images/img71.jpg" alt="textimage" width="1170" height="389" />
+                            <img src="images/img87.jpg" alt="textimage" width="1170" height="389" />
                         </div>
                     </div>
                     <div className="col-lg-3">

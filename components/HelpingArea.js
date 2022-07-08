@@ -53,11 +53,11 @@ const HelpingArea = () => {
                         <div className="col-lg-6">
                             <div className="fun-content">
                                 <div className="fun-item fun-item1">
-                                    <img src="/images/img69.jpg" alt="textimage" width="500" height="219" />
+                                    <img src="/images/img86.jpg" alt="textimage" width="100" height="200" />
                                 </div>
                                 <div className="section-heading">
                                     <div className="section-icon">
-                                        <img src="/images/img70.jpg" alt="textimage" width="500" height="219"/>
+                                        <img src="/images/img97.jpg" alt="textimage" width="500" height="219"/>
                                     </div>
                                     <h2 className="section__title">The Church
                                         </h2>
@@ -81,6 +81,7 @@ const HelpingArea = () => {
                                     <h2 className="section__title text__white">Join Our Family</h2>
                                     <p className="section__meta text__white">Join Our Community</p>
                                 </div>
+im                              
                                 <div className="form-shared">
                                     <form action="#">
                                         <div className="row">

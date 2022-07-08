@@ -20,7 +20,7 @@ const BlogHome = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">09 mar, 2020</span>
-                                <img src="/images/img72.jpg" alt="service-image" width="570" height="354" />
+                                <img src="/images/img104.jpg" alt="service-image" width="500" height="600" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><a href="/single-news">The Way of Salvation

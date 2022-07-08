@@ -19,7 +19,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/images/img65.jpg" alt="team image" width="200" height="200" />
+                                <img src="/images/img103.jpg" alt="team image" width="200" height="200" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -38,7 +38,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/images/img68.jpg" alt="team image" width="200" height="200" />
+                                <img src="/images/img92.jpg" alt="team image" width="200" height="205" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -57,7 +57,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/images/img66.jpg" alt="team image" width="100" height="200" />
+                                <img src="/images/img95.jpg" alt="team image" width="100" height="200" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -76,7 +76,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                <img src="/images/img67.jpg" alt="team image" width="200" height="200" />
+                                <img src="/images/img98.jpg" alt="team image" width="200" height="200" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>

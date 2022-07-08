@@ -1,92 +1,126 @@
-import React,{useEffect} from 'react';
+import HelpingArea from "./HelpingArea";
 
-const Gallery = () => {
+class Test extends React.Component {
+constructor(props) {
+ super(props);
 
-    useEffect(() => {
-        const lightbox = GLightbox({
-            touchNavigation: true,
-            loop: true,
-            autoplayVideos: true,
-            beforeSlideLoad: (slide, data) => {
-                // Need to execute a script in the slide?
-                // You can do that here...
-            }
-        });
+ this.state = {
+    fields: {},
+    errors: {},
+ };
+}
 
-    });
-    return (
-        <section className="gallery-area2">
-            <div className="container">
-                <div className="row">
+handleValidation() {
+    let fields = this.state.fields;
+    let errors = {};
+    let formIsValid = true;
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img4.jpg" alt="" />
-                            <a href="/images/gallery-img4.jpg" className="glightbox">
-                                <span className="gallery-icon"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img5.jpg" alt="" />
-                                <a href="images/gallery-img5.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img6.jpg" alt="" />
-                                <a href="images/gallery-img6.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img7.jpg" alt="" />
-                                <a href="images/gallery-img7.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img8.jpg" alt="" />
-                                <a href="images/gallery-img8.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img9.jpg" alt="" />
-                                <a href="images/gallery-img9.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img10.jpg" alt="" />
-                                <a href="images/gallery-img10.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img11.jpg" alt="" />
-                                <a href="images/gallery-img11.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img12.jpg" alt="" />
-                                <a href="images/gallery-img12.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                </div>
+    //Name
+    if (!fields["name"]) {
+    formIsValid =false;
+    errors["name"] = "Cannot be empty";
+    }
+
+ if (typeof fields["name"] !=="undefined") {
+    if (!fields["name"].match(/^[a-zA-Z]+$/)) {
+    formIsValid = false;
+    errors["name"] = "Only letters";
+    }
+ }   
+
+ //Email
+ if (!fields["email"]) {
+    formIsValid = false;
+    errors["email"] ="Cannot be empty";
+ }
+
+ if (typeof fields["email"] !== "undefined") {
+    let lastAtPos = fields["email"].lastIndexOf("@");
+    let lastDotPos = fields["email"].lastIndexOf(".");
+
+    if (
+        !(
+            lastAtPos < lastDotPos &&
+            lastAtPos > 0 &&
+            fields["email"].indexOf ("@@") == -1 &&
+            lastDotPos > 2 &&
+            fields["email"].length -lastDotPos > 2
+        )
+    ) {
+        formIsValid = false;
+        errors["email"] = "Email is not valid";
+    }
+ }
+    this.setState({errors: errors });
+    return formIsValid;
+}
+    contactSubmit(e) {
+        e.preventDefault();
+
+        if (this.handleValidation()) {
+            alert("Form submitted");
+        } else {
+            alert("Form has errors.");
+        }
+    }
+    handleChange(field, e) {
+        let fields = this.state.fields;
+        fields[field] = e.target.value;
+        this.setState({ fields });
+    }
+    render() {
+        return (
+            <div>
+                <form
+                name="HelpingArea"
+                className="form-shared"
+                onSubmit={this.formSubmit.bind(this)}
+                >
+                <div className="col-lg-12">
+                <fieldset>
+                    <input
+                    ref="form-group"
+                    type="text"
+                    size="30"
+                    placeholder=" Full name"
+                    onChange={this.handleChange.bind(this, "Full name")}
+                    value={this.state.fields["Full name"]}
+                    />
+                    <span style={{  color: "red"  }}>{this.state.errors["Full name"]}</span>
+                    <br />
+                    <input 
+                    refs="email"
+                    type="text"
+                    size="30"
+                    placeholder="Email address"
+                    onChange={this.handleChange.bind(this, "email")}
+                    value={this.state.fields["email"]}
+                    />
+                    <span style={{  color: "red"}}>{this.state.errors["email"]}</span>
+                    <br />
+                    <input
+                    refs="location"
+                    type="text"
+                    size="30"
+                    placeholder="Location"
+                    onChange={this.handleChange.bind(this, "location")}
+                    value={this.state.fields["location"]}
+                    />
+                    <br />
+                    <input
+                    refs="message"
+                    type="textarea"
+                    size="30"
+                    placeholder="Leave a comment"
+                    onChange={this.handleChange.bind(this, "leave a comment")}
+                    value={this.state.fields["leave a comment"]}
+                    />
+                    <br />
+                </fieldset>
             </div>
-        </section>
-    );
-};
-
-export default Gallery;
+            </form>
+            </div>
+        )
+    }
+}
+React.render(<Test />, document.getElementById("container"));

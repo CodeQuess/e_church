@@ -1095,6 +1095,9 @@ a:hover {
 
 .slider-area .slide-bg5 {
     background-image: url("../images/slider1.jpg");
+    background-size: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .slider-area .slide-item-table {
