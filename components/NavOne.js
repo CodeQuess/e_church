@@ -189,12 +189,12 @@ class NavOne extends Component {
                   <ul className="side-sub-menu">
                     <li>
                       <Link href="/">
-                        <a>Home 1</a>
+                        <a>Home </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/index2">
-                        <a>Home 2</a>
+                        <a>about</a>
                       </Link>
                     </li>
                   </ul>
@@ -204,15 +204,11 @@ class NavOne extends Component {
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
                     <li>
-                      <Link href="/causes">
+                      <Link href="/eventsarea">
                         <a>causes</a>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/causes-detail">
-                        <a>causes detail</a>
-                      </Link>
-                    </li>
+                    
                     <li>
                       <Link href="/donate">
                         <a>donate now</a>
@@ -224,27 +220,12 @@ class NavOne extends Component {
                   <a href="#">event</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li>
-                      <Link href="/events">
-                        <a>events</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/events-detail">
-                        <a>events detail</a>
-                      </Link>
-                    </li>
                   </ul>
                 </li>
                 <li className="sidenav__item">
                   <a href="#">Our philosophy</a>
                   <span className="menu-plus-icon"></span>
-                  <ul className="side-sub-menu">
-                    <li>
-                      <Link href="/news">
-                        <a>Our philosophy</a>
-                      </Link>
-                    </li>
+                  <ul className="side-sub-menu">          
                     <li>
                       <Link href="/philosophy">
                         <a>Our philosophy</a>
@@ -259,21 +240,6 @@ class NavOne extends Component {
                     <li>
                       <Link href="/history">
                         <a>Our history</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/gallery">
-                        <a>gallery</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/volunteer">
-                        <a>become a volunteer</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/team">
-                        <a>our team</a>
                       </Link>
                     </li>
                     <li>

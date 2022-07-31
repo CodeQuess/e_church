@@ -1,4 +1,4 @@
-import HelpingArea from "./HelpingArea";
+import React from "./gallery";
 
 class Test extends React.Component {
 constructor(props) {
