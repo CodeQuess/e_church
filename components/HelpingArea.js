@@ -81,50 +81,14 @@ const HelpingArea = () => {
                                     <h2 className="section__title text__white">Join Our Family</h2>
                                     <p className="section__meta text__white">Join Our Community</p>
                                 </div>
-im                              
-                                <div className="form-shared">
-                                    <form action="#">
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <div className="form-group">
-                                                    <input type="text" className="form-control"
-                                                           placeholder="Insert Custom Value" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <div className="form-group">
-                                                    <input type="text" className="form-control" placeholder="Full Name" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <div className="form-group">
-                                                    <input type="email" className="form-control"
-                                                           placeholder="Email Address" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <div className="form-group">
-                                                    <input type="text" className="form-control" placeholder="Location" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <div className="form-group">
-                                                    <textarea className="textarea" name="message"
-                                                              placeholder="Leave a comment"></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <button className="theme-btn submit__btn">Yes please</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+im      </div>
                 </div>
-            </section>
-        </div>
+                </div>
+                </div>
+                </section>
+                    </div>
+                                                                                                                                              
+       
     );
 };
 
