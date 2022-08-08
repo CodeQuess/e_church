@@ -1078,23 +1078,23 @@ a:hover {
 }
 
 .slider-area .slide-bg1 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/bann1.jpg");
 }
 
 .slider-area .slide-bg2 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/bann1.jpg");
 }
 
 .slider-area .slide-bg3 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/bann1.jpg");
 }
 
 .slider-area .slide-bg4 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/bann1.jpg");
 }
 
 .slider-area .slide-bg5 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/bann1.jpg");
     background-size: 150px;
     width: 200px;
     height: 200px;
@@ -1731,16 +1731,16 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f1ae44;
+    background-color: none;
     opacity: 0.8;
 }
 
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg1:after {
-    background-color: #50bac3;
+    background-color: none;
 }
 
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg2:after {
-    background-color: #e36955;
+    background-color: none;
 }
 
 .hiw-area .hiw-item .hiw-item-img-box .hiw-title {
@@ -1999,7 +1999,7 @@ a:hover {
 .mixer-area {
     position: relative;
     z-index: 1;
-    background-image: url("../images/img84.jpg");
+    background-image: url("../images/bann1.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2185,7 +2185,7 @@ a:hover {
 =====================================*/
 
 .mixer-area3 {
-    background-image: url("../images/img72.jpg");
+    background-image: url("../images/img60.jpg");
 }
 
 .mixer-area3:after {
@@ -3763,19 +3763,9 @@ a:hover {
     transform: skew(-11deg, 0deg);
 }
 
-.helping-area .helping-item .helping-box2,
-.helping-area .helping-item .helping-box2:after {
-    background-color: #e36955;
-}
-
 .helping-area .helping-item .helping-box3,
 .helping-area .helping-item .helping-box3:after {
     background-color: #f1ae44;
-}
-
-.helping-area .helping-item .helping-box4,
-.helping-area .helping-item .helping-box4:after {
-    background-color: #863bae;
 }
 
 .helping-area .helping-item .helping-box5,
@@ -3826,27 +3816,6 @@ a:hover {
 
 .helping-area2 .fun-content .section-heading .section__desc {
     line-height: 30px;
-}
-
-
-/*=== helping-form ===*/
-
-.helping-area2 .helping-form {
-    background-color: #863bae;
-    padding: 120px 0 120px 120px;
-    position: relative;
-    z-index: 1;
-    margin-top: -361px;
-}
-
-.helping-area2:after {
-    background-color: #863bae;
-    margin-top: -261px;
-    height: 954px;
-}
-
-.helping-area2 .helping-form .form-shared {
-    margin-top: 51px;
 }
 
 

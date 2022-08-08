@@ -10,7 +10,7 @@ const Ministry = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <div className="logo-item logo-item1">
-                                        <img src="/images/img73.jpg" alt="textimage" width="500" height="289" />
+                                        <img src="/images/edd1.jpg" alt="textimage" width="500" height="289" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8">
@@ -46,8 +46,8 @@ a workman that needeth not be ashamed, rightly dividing the word of truth."
                             <div className="row">
                                 <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item2">
-                                        <img src="/images/img114.jpg" alt="textimage" width="200" height="200" />
-                                        <img src="/images/img88.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/youth1.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/youth2.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8">
@@ -87,8 +87,8 @@ and administering member account information
                             <div className="row">
                                 <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item3">
-                                        <img src="/images/img107.jpg" alt="textimage" width="200" height="200" />
-                                        <img src="/images/img120.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/mission1.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/mission2.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8">
@@ -121,9 +121,9 @@ The Visitation and Hospitality Ministry is responsible for creating a welcoming 
                             <div className="row">
                                 <div className="row-lg-6 row-sm-6">
                                     <div className="logo-item logo-item4">
-                                        <img src="/images/img115.jpg" alt="textimage" width="200" height="200" />
-                                        <img src="/images/img99.jpg" alt="textimage" width="200" height="200" />
-                                        <img src="/images/img117.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/hero1.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/maiden1.jpg" alt="textimage" width="200" height="200" />
+                                        <img src="/images/choir1.jpg" alt="textimage" width="200" height="200" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8">

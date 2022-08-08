@@ -53,11 +53,11 @@ const HelpingArea = () => {
                         <div className="col-lg-6">
                             <div className="fun-content">
                                 <div className="fun-item fun-item1">
-                                    <img src="/images/img86.jpg" alt="textimage" width="100" height="200" />
+                                    <img src="/images/ups1.jpg" alt="textimage" width="100" height="200" />
                                 </div>
                                 <div className="section-heading">
                                     <div className="section-icon">
-                                        <img src="/images/img97.jpg" alt="textimage" width="500" height="219"/>
+                                        <img src="/images/soldier1.jpg" alt="textimage" width="500" height="219"/>
                                     </div>
                                     <h2 className="section__title">The Church
                                         </h2>
@@ -72,21 +72,12 @@ const HelpingArea = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="helping-form">
-                                <div className="section-heading">
-                                    <div className="section-icon">
-                                        
-                                    </div>
-                                    <h2 className="section__title text__white">Join Our Family</h2>
-                                    <p className="section__meta text__white">Join Our Community</p>
+                        </div>
+                        </div>
+                        </section>
                                 </div>
-im      </div>
-                </div>
-                </div>
-                </div>
-                </section>
-                    </div>
+                    
+
                                                                                                                                               
        
     );

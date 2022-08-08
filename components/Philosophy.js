@@ -10,7 +10,7 @@ const Philosophy = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img105.jpg" alt="service-image" width="400" height="354" />
+                                <img src="/images/man1.jpg" alt="service-image" width="400" height="354" />
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title">Mission Statement</h3>
@@ -32,7 +32,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                
-                                <img src="/images/img109.jpg" alt="service-image" width="400" height="354"/>
+                                <img src="/images/lady1.jpg" alt="service-image" width="400" height="354"/>
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title">Vision Statement
@@ -52,7 +52,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img110.jpg" alt="service-image" width="400" height="354"/>
+                                <img src="/images/people3.jpg" alt="service-image" width="400" height="354"/>
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title">Repentance, Faith and Grace
@@ -75,7 +75,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img119.jpg" alt="service-image" width="400" height="354" />
+                                <img src="/images/shake1.jpg" alt="service-image" width="400" height="354" />
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title">God's Purpose of grace
@@ -100,7 +100,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img118.jpg" alt="service-image"  width="400" height="354" />
+                                <img src="/images/woman1.jpg" alt="service-image"  width="400" height="354" />
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title">Sanctification
@@ -122,7 +122,7 @@ No one can be a true believer who has not repented of sin, trusted Jesus, and hi
                         <div className="recent-item">
                             <div className="recent__img">
                                 
-                                <img src="/images/img96.jpg" alt="service-image" width="400" height="354" />
+                                <img src="/images/event1.jpg" alt="service-image" width="400" height="354" />
                             </div>
                             <div className="philosophy__content">&nbsp;&nbsp;&nbsp;
                                 <h3 className="philosophy__content-title"> The True God

@@ -32,7 +32,7 @@ class EntryArea extends Component {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="entry-img">
-                                            <img src="/images/img60.jpg" alt="entry-img" width="300" height="300" />
+                                            <img src="/images/event8.jpg" alt="entry-img" width="300" height="300" />
                                             
                                                 </div>
                                         </div>

@@ -21,7 +21,7 @@ const EventsArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item1">
                                     <div className="blog-img">
-                                        <img src="/images/img112.jpg" alt="textimage" width="370" height="317" />
+                                        <img src="/images/man2.jpg" alt="textimage" width="370" height="317" />
                                     </div>
                                     <div id="bar1" className="barfiller">
                                         <div className="tipWrap">
@@ -30,12 +30,12 @@ const EventsArea = () => {
                                         <span className="fill" data-percentage="23"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/causes-detail">Charity Tasks</a>
+                                        <h3 className="blog__title"><a href="/causes-detail">Worship Here</a>
                                         </h3>
                                         <p className="blog__desc"> Let us transform lives today!
                                             </p>
                                             
-                                        <a href="/donate" className="theme-btn">Click Now</a>
+                                        
                                         
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ const EventsArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
-                                        <img src="/images/img113.jpg" alt="textimage" width="370" height="317" />
+                                        <img src="/images/people2.jpg" alt="textimage" width="370" height="317" />
                                             <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
@@ -59,7 +59,7 @@ const EventsArea = () => {
                                         </h3>
                                         <p className="blog__desc">What Are You Waiting For?.</p>
                                         
-                                        <a href="/donate" className="theme-btn">Join Us</a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const EventsArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item3">
                                     <div className="blog-img">
-                                        <img src="/images/img111.jpg" alt="textimage" width="300" height="299" />
+                                        <img src="/images/kids1.jpg" alt="textimage" width="300" height="299" />
                                     </div>
                                     <div id="bar3" className="barfiller">
                                         <div className="tipWrap">
@@ -78,11 +78,11 @@ const EventsArea = () => {
                                     </div>
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><a href="/causes-detail">
-                                            Our Bible Group Community</a></h3>
+                                            Holiday Bible School</a></h3>
                                         <p className="blog__desc"> Discussing the Word of God with YOU!
                                             </p>
                                         
-                                        <a href="/donate" className="theme-btn">Click Here</a>
+                                        
                                     </div>
                                 </div>
                             </div>

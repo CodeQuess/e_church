@@ -7,7 +7,7 @@ const History = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="about-large-img">
-                            <img src="images/img87.jpg" alt="textimage" width="1170" height="389" />
+                            <img src="images/history1.jpg" alt="textimage" width="1000" height="389" />
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -15,7 +15,7 @@ const History = () => {
                             
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-9">
                         <div className="Our History-heading">
                             <div className="section-heading">
                                 <div className="section-icon">
